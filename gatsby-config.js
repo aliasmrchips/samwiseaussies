@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Samwise Australian Shepherds`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `aliasmrchips`,
+      summary: `next to the Rio Grande in Northern New Mexico`
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Samwise Australian Shepherds`,
+    siteUrl: `https://samwiseaussies.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `aliasmrchips`,
     },
   },
   plugins: [
