@@ -2,14 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `Samwise Australian Shepherds`,
     author: {
-      name: `aliasmrchips`,
-      summary: `next to the Rio Grande in Northern New Mexico`
+      name: `Star Mathis`,
+      email: `samwiseaussies@gmail.com`,
     },
     description: `Samwise Australian Shepherds`,
-    siteUrl: `https://samwiseaussies.netlify.com/`,
+    siteUrl: `https://samwiseaussies.com/`,
     social: {
-      twitter: `aliasmrchips`,
-    },
+      facebook: `https://www.facebook.com/star.mathis`
+    }
   },
   plugins: [
     {

@@ -25,10 +25,10 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
+            email
           }
           social {
-            twitter
+            facebook
           }
         }
       }
@@ -57,11 +57,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        <strong>{author.name}</strong> {author.summary}
+        <br/>
+        New website coming soon...
+        <br/>
+        In the meantime, email me at <a href="mailto:samwiseaussies@gmail.com?Subject=Samwise Australian Shepherds" target="_top">{author.email}</a> or find me on <a href={social.facebook}>Facebook</a>
       </p>
     </div>
   )
